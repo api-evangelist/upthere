@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of upthere.com
+note: >-
+  Upthere was acquired by Western Digital in 2017 and the service was
+  discontinued. Every path on upthere.com — including the entire /.well-known/
+  discovery surface — now returns a blanket 302 redirect to a retired Western
+  Digital support notice (https://support-en.wd.com/app/answers/detailweb/a_id/48583,
+  itself now "no longer available"). No discovery documents exist.
+host: https://upthere.com
+documents:
+  - path: /.well-known/security.txt
+    status: 302
+    redirect: https://support-en.wd.com/app/answers/detailweb/a_id/48583
+  - path: /.well-known/openid-configuration
+    status: 302
+    redirect: https://support-en.wd.com/app/answers/detailweb/a_id/48583
+  - path: /.well-known/oauth-authorization-server
+    status: 302
+    redirect: https://support-en.wd.com/app/answers/detailweb/a_id/48583
+  - path: /.well-known/api-catalog
+    status: 302
+    redirect: https://support-en.wd.com/app/answers/detailweb/a_id/48583
+  - path: /.well-known/ai-plugin.json
+    status: 302
+    redirect: https://support-en.wd.com/app/answers/detailweb/a_id/48583
+  - path: /llms.txt
+    status: 302
+    redirect: https://support-en.wd.com/app/answers/detailweb/a_id/48583

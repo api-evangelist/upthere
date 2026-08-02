@@ -1,7 +1,27 @@
 aid: upthere
-name: Upthere *
-description: 'Upthere * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upthere.png
+name: Upthere
+description: >-
+  Upthere was a consumer cloud-storage company backed by GV and founded by
+  former Apple software engineering chief Bertrand Serlet. Its Upthere Home app
+  was designed as "one home" for photos, videos, music, and documents, stored
+  directly in the Upthere cloud with fast search, private sharing, and shared
+  "Loops". Western Digital acquired Upthere in 2017 and later discontinued the
+  service; upthere.com now 302-redirects every path to a retired Western
+  Digital support notice. Upthere never published a public developer API, and
+  no API surface remains — this profile records the company identity and the
+  posture of the surviving domain.
 url: https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +29,19 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Cloud Storage
+- File Sharing
+- Photos
+- Media
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://upthere.com
+  url: https://upthere.com
+- type: DomainSecurity
+  url: security/upthere-domain-security.yml
+- type: WellKnown
+  url: well-known/upthere-well-known.yml
+- type: LLMsTxt
+  url: llms/upthere-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

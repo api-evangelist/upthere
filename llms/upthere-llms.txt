@@ -1,0 +1,20 @@
+# Upthere
+
+> Upthere was a consumer cloud-storage company backed by GV and founded by former
+> Apple software engineering chief Bertrand Serlet. Its Upthere Home app was "one
+> home" for photos, videos, music, and documents, stored directly in the Upthere
+> cloud with fast search, private sharing, and shared "Loops". Western Digital
+> acquired Upthere in 2017 and later discontinued the service. upthere.com now
+> redirects every path to a retired Western Digital support notice. Upthere never
+> published a public developer API, and no API surface remains.
+
+## Company
+
+- [Website (now a redirect to Western Digital support)](https://upthere.com)
+- [Archived homepage, June 2017](https://web.archive.org/web/20170623193553/https://upthere.com/): what Upthere Home offered before the shutdown
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/apis.yml): machine-readable company profile in the API Evangelist network
+
+## Artifacts (API Evangelist)
+
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/security/upthere-domain-security.yml): TLS/HSTS/DNS posture of the surviving upthere.com domain
+- [Well-known probe index](https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/well-known/upthere-well-known.yml): every /.well-known/ path 302-redirects to the retired shutdown notice
